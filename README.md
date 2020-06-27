@@ -1,3 +1,6 @@
+## DQN implementation
+https://github.com/higgsfield/RL-Adventure/blob/master/2.double%20dqn.ipynb
+
 # Some basic examples for reinforcement learning
 
 ## Installing Anaconda and OpenAI gym
