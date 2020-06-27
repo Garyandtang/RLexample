@@ -1,3 +1,5 @@
+import os
+os.environ['LANG'] = 'en_US'
 import gym
 import argparse
 ## random agent

@@ -71,7 +71,7 @@ def policy_iteration(env, gamma = 1.0):
 
 if __name__ == '__main__':
 
-    env_name  = 'FrozenLake-v0' # 'FrozenLake8x8-v0'
+    env_name  = 'FrozenLake-v0'  # 'FrozenLake8x8-v0'
     env = gym.make(env_name)
 
     optimal_policy = policy_iteration(env, gamma = 1.0)
