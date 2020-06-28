@@ -49,7 +49,7 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     parser.add_argument('--display', action='store_true')
     parser.add_argument('target', nargs="?", default="CartPole-v0")
-    args = parser.parse_args()
+    args = parserdo_rollout.parse_args()
 
     env = gym.make(args.target)
     env.seed(0)
